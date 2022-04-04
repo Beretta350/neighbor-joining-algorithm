@@ -1,0 +1,15 @@
+graph {
+	A -- "G,H,F,E,A" [label=1.368]
+	B -- "G,H,F,E,A,B" [label=0.024]
+	C -- "G,H,F,E,A,B,D" [label=1.031]
+	D -- "G,H,F,E,A,B,D" [label=0.789]
+	E -- "G,H,F,E" [label=0.139]
+	F -- "G,H,F" [label=0.881]
+	G -- "G,H" [label=0.1]
+	H -- "G,H" [label=1.118]
+	"G,H" -- "G,H,F" [label=0.216]
+	"G,H,F" -- "G,H,F,E" [label=2.328]
+	"G,H,F,E" -- "G,H,F,E,A" [label=0.383]
+	"G,H,F,E,A" -- "G,H,F,E,A,B" [label=0.835]
+	"G,H,F,E,A,B" -- "G,H,F,E,A,B,D" [label=0.101]
+}
